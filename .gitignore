@@ -1,0 +1,22 @@
+#how to write gitignore 
+#1. #开头文件将被忽略
+#2. 支持匹配
+#	*		字符串
+#   [str]	匹配组成str的任意单个字符
+#	？		匹配单个字符
+#	-		表示区间，[0-9]匹配0-9任意一个数字
+#	**		表示中间目录，例如：a/**/b 匹配：a/b,a/a/b,a/a/c/b等等
+#	/dir or /file	防止递归，仅仅匹配当前目录下的文件或者文件夹，不递归匹配下级
+#	dir/	匹配文件夹
+#	！		集合取反
+
+#ignore .o .a
+*.o
+*.a
+*~
+
+#ignore output diretory
+output/
+tmp/
+log/
+
