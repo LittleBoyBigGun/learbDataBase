@@ -2,3 +2,5 @@
 //windows adds a new line
 //new line from linux
 linux
+//linux
+conflict is resolved
